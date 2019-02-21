@@ -14,8 +14,8 @@ public class MainUser {
         uc.changePassword(
                 "kk",
                 "kk",
-                "nowe",
-                "nowe");
+                "Nowe222222",
+                "Nowe222222");
         uc.changePassword(
                 "123",
                 "kk",
