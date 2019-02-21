@@ -13,6 +13,15 @@ public class AutoController {
         ordered_autos.add(a);
         System.out.println("Zamówienie przyjęte! " + a);
     }
+    public void addEqupment(String vin, String name){
+        // szukam auta po vin
+        for(int i = 0; i < ordered_autos.size(); i++){
+            if(ordered_autos.get(i).getVin_no().equals(vin)){
+                ordered_autos.get(i).setEquipmentOrderByName(name);
+            }
+        }
+    }
+
     public void getAllAutos(){
         ordered_autos.forEach(auto -> System.out.println(auto));
     }

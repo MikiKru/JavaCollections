@@ -25,6 +25,12 @@ public class Auto {
         return String.format("%10s | %10s | %10s | %15.2f | %30s | %15.2f " ,
                 vin_no, brand, model, price_basic, getOrderedEqupmentNames(),calcFullPrice());
     }
+    // metoda do zamówienia dodatkowego wyposażenia
+    public void setEquipmentOrderByName(String name){
+        int index = eq_name.indexOf(name);
+        eq_order.set(index, 1);
+    }
+    // metoda zwracająca cenę auta z wypozażeniem
     public double calcFullPrice(){
         double price_full = price_basic;
         for (int i = 0; i < eq_order.size(); i ++) {
@@ -34,7 +40,7 @@ public class Auto {
         }
         return price_full;
     }
-
+    // metoda zwracająca nazwy zamówionego wyposażenia dodatkowego
     public String getOrderedEqupmentNames(){
         String equpmentNames = "";
         for (int i = 0; i < eq_name.size(); i ++) {
