@@ -22,9 +22,28 @@ public class Auto {
 
     @Override
     public String toString() {
-        return String.format("%10s | %10s | %10s | %15.2f | %10s" , vin_no, brand, model, price_basic, equipment);
+        return String.format("%10s | %10s | %10s | %15.2f | %30s | %15.2f " ,
+                vin_no, brand, model, price_basic, getOrderedEqupmentNames(),calcFullPrice());
+    }
+    public double calcFullPrice(){
+        double price_full = price_basic;
+        for (int i = 0; i < eq_order.size(); i ++) {
+            if(eq_order.get(i) != 0){
+                price_full += eq_price.get(i);
+            }
+        }
+        return price_full;
     }
 
+    public String getOrderedEqupmentNames(){
+        String equpmentNames = "";
+        for (int i = 0; i < eq_name.size(); i ++) {
+            if(eq_order.get(i) != 0){
+                equpmentNames += (eq_name.get(i) + ",");
+            }
+        }
+        return equpmentNames;
+    }
     public String getVin_no() {
         return vin_no;
     }
