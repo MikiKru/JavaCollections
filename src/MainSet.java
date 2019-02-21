@@ -25,5 +25,15 @@ public class MainSet {
         temp.addAll(pesels);
         temp.addAll(pesels_bydgoszcz);
         System.out.println("Po sumowaniu "+ pesels + " + " + pesels_bydgoszcz + " = " + temp);
+        // różnica zbiorów
+        temp.clear();
+        temp.addAll(pesels);
+        temp.removeAll(pesels_bydgoszcz);
+        System.out.println("Po różnicy: " + pesels + " - " + pesels_bydgoszcz + " = " + temp);
+        // część wspólna
+        temp.clear();
+        temp.addAll(pesels);
+        temp.retainAll(pesels_bydgoszcz);
+        System.out.println("Po czesci wspolnej: " + pesels + " x " + pesels_bydgoszcz + " = " + temp);
     }
 }
