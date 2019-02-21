@@ -8,15 +8,41 @@ public class BubbleController {
 
     public List<Integer> sortASC(List<Integer> list) {
         temp = list;
+        int counter = 0;
         // pętla iterująca po testach
         for (int i = 1; i < temp.size(); i++) {
+            counter = 0;
             // pętla iterująca po wartściach listy
             for (int j = 1; j < temp.size(); j++) {
                 if (temp.get(j - 1) > temp.get(j)) {
                     swap(j - 1, j);
+                    counter++;
                 }
             }
-            System.out.println(i + " " + temp);
+//            System.out.println(i + " " + temp);
+            if(counter == 0){
+                break;
+            }
+        }
+        return temp;
+    }
+    public List<Integer> sortDESC(List<Integer> list){
+        temp = list;
+        int counter = 0;
+        // pętla iterująca po testach
+        for (int i = 1; i < temp.size(); i++) {
+            counter = 0;
+            // pętla iterująca po wartściach listy
+            for (int j = 1; j < temp.size(); j++) {
+                if (temp.get(j - 1) < temp.get(j)) {
+                    swap(j - 1, j);
+                    counter++;
+                }
+            }
+//            System.out.println(i + " " + temp);
+            if(counter == 0){
+                break;
+            }
         }
         return temp;
     }
@@ -28,8 +54,6 @@ public class BubbleController {
         // wprowadzam wartość dla index1 w miejsce index 2
         temp.set(index2, tempIndex);
     }
-//    public List<Integer> sortDESC(List<Integer> list){
-//        temp = list;
-//    }
+
 
 }
