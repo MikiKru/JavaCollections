@@ -22,7 +22,7 @@ public class Auto {
 
     @Override
     public String toString() {
-        return String.format("%10s | %10s | %10s | %10f | %10s" , vin_no, brand, model, price_basic, equipment);
+        return String.format("%10s | %10s | %10s | %15.2f | %10s" , vin_no, brand, model, price_basic, equipment);
     }
 
     public String getVin_no() {
