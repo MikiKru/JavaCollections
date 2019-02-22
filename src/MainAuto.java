@@ -18,8 +18,12 @@ public class MainAuto {
                 "VW",
                 "Tiguan",
                 120000);
+
         ac.addEqupment("321312VDG2321", "A");
         ac.addEqupment("321312VDG2321", "C");
+        ac.getAllAutos();
+        ac.deleteAutoByVin("ER1312VDG2321");
+        ac.deleteEqipment("321312VDG2321","A");
         ac.getAllAutos();
     }
 }
