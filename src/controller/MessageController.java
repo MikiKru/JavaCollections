@@ -4,6 +4,7 @@ import model.Message;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.NoSuchElementException;
 
 public class MessageController {
     private Deque<Message> messages = new ArrayDeque<>();
@@ -14,10 +15,18 @@ public class MessageController {
         System.out.println("Dodano wiadomości");
     }
     public void getMessage(){
-        System.out.println(messages.getLast());
+        try {
+            System.out.println(messages.getLast());
+        } catch(NoSuchElementException e){
+            System.out.println("Brak wiadomości");
+        }
     }
     public void deleteMessage(){
-        messages.removeLast();
+        try{
+            messages.removeLast();
+        } catch(NoSuchElementException e){
+            System.out.println("Brak wiadomości");
+        }
     }
     public int getSize(){
         return messages.size();
