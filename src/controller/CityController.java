@@ -29,6 +29,19 @@ public class CityController {
             System.out.println("Brak rekordu o id="+id);
         }
     }
+    public boolean deleteFromCityById(Integer id){
+        if(city_table.get(id) != null) {
+            System.out.println("Wyszukano:" + city_table.remove(id));
+            return true;
+        } else {
+            System.out.println("Brak rekordu o id="+id);
+            return false;
+        }
+    }
+//    public boolean updateCityValueById(Integer id, Double population){
+//        System.out.println(city_table.get(id).get(1));
+//        return true;
+//    }
 
 
 }

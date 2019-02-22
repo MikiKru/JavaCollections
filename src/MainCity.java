@@ -10,5 +10,7 @@ public class MainCity {
         cc.selectFromCityById(1);
         cc.selectFromCityById(10);
 
+        cc.updateCityValueById(1,44444.);
+
     }
 }
