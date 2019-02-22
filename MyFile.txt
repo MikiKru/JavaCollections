@@ -1,0 +1,9 @@
+            VIN |      MARKA |      MODEL |            CENA |                    WYPOSAŻENIE |            SUMA 
+  321312VDG2321 |         VW |     Passat |       150000,00 |                             C, |       162000,00 
+  FC1312VDG2321 |         VW |       Golf |        80000,00 |                                |        80000,00 
+  ER1312DVG2321 |         VW |       POLO |        50000,00 |                                |        50000,00 
+  ER131233VD321 |       Audi |         A3 |       125000,00 |                                |       125000,00 
+  ER1312VD52321 |       Audi |         A5 |       170000,00 |                                |       170000,00 
+
+
+DATA: 2019-02-22

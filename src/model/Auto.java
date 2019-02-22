@@ -22,7 +22,7 @@ public class Auto {
 
     @Override
     public String toString() {
-        return String.format("%10s | %10s | %10s | %15.2f | %30s | %15.2f " ,
+        return String.format("%15s | %10s | %10s | %15.2f | %30s | %15.2f " ,
                 vin_no, brand, model, price_basic, getOrderedEqupmentNames(),calcFullPrice());
     }
     // metoda do zamówienia dodatkowego wyposażenia
