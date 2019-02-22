@@ -22,7 +22,13 @@ public class CityController {
     public void selectFromCity(){
         city_table.forEach((key, value) -> System.out.println(key + ":" + value));
     }
-
+    public void selectFromCityById(Integer id){
+        if(city_table.get(id) != null) {
+            System.out.println("Wyszukano:" + city_table.get(id));
+        } else {
+            System.out.println("Brak rekordu o id="+id);
+        }
+    }
 
 
 }
