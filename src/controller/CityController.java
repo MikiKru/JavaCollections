@@ -2,6 +2,9 @@ package controller;
 
 import model.City;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.security.KeyStore;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -37,6 +40,13 @@ public class CityController {
             System.out.println("Brak rekordu o id="+id);
             return false;
         }
+    }
+    public void saveCityTableData() throws IOException {
+        FileWriter fw = new FileWriter("database_data.txt");
+        for(Map.Entry<Integer,List> record : city_table.entrySet()){
+            fw.write(record.toString()+"\n");
+        }
+        fw.close();
     }
 //    public boolean updateCityValueById(Integer id, Double population){
 //        System.out.println(city_table.get(id).get(1));

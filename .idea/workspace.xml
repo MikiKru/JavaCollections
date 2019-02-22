@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab062ac-473f-4a15-8533-d13caa42144e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/MainCity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/MainCity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/controller/CityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/controller/CityController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainCity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/City.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,14 +14,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3998656">
+    <splitter split-orientation="horizontal" split-proportion="0.4422043">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/model/City.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+                <state relative-caret-position="512">
+                  <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#354#355#0" expanded="true" />
@@ -62,23 +60,24 @@
             <entry file="file://$PROJECT_DIR$/src/controller/CityController.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="572">
-                  <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+                  <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#628#629#0" expanded="true" />
                     <element signature="e#679#680#0" expanded="true" />
-                    <element signature="e#1065#1066#0" expanded="true" />
-                    <element signature="e#1092#1093#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/MainCity.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+                <state relative-caret-position="330">
+                  <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -90,8 +89,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/controller/CityController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+                <state relative-caret-position="428">
+                  <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#679#680#0" expanded="true" />
@@ -130,9 +129,9 @@
         <option value="$PROJECT_DIR$/src/controller/AutoController.java" />
         <option value="$PROJECT_DIR$/src/MainMap.java" />
         <option value="$PROJECT_DIR$/src/controller/MyDB.txt" />
-        <option value="$PROJECT_DIR$/src/MainCity.java" />
         <option value="$PROJECT_DIR$/src/model/City.java" />
         <option value="$PROJECT_DIR$/src/controller/CityController.java" />
+        <option value="$PROJECT_DIR$/src/MainCity.java" />
       </list>
     </option>
   </component>
@@ -182,7 +181,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550835766966" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550836338096" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -254,12 +253,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550740155413</updated>
-      <workItem from="1550740159464" duration="32017000" />
+      <workItem from="1550740159464" duration="32713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32017000" />
+    <option name="totallyTimeSpent" value="32713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="1548" height="824" extended-state="0" />
@@ -280,7 +279,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.059248555" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0650289" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -447,17 +446,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainCity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/City.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="512">
+          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#354#355#0" expanded="true" />
@@ -484,12 +476,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/CityController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        <state relative-caret-position="572">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
             <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainCity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

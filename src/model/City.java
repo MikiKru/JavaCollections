@@ -31,6 +31,7 @@ public class City {
     public String toString() {
         return String.format("| %20s | %20.2f | 20.2f |", name, population, area);
     }
+
     public String getName() {
         return name;
     }
