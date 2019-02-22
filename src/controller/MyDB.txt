@@ -1,0 +1,8 @@
+
+
+Map -> ids              {1 : List<Map>
+                            {
+                            Map -> names            {"name" : "Grudziądz"}
+                            Map -> populations      {"population" : 80000.}
+                            Map -> area             {"area" : 8.}
+                            }
