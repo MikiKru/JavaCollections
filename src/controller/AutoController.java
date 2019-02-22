@@ -2,6 +2,7 @@ package controller;
 
 import model.Auto;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.time.LocalDate;
@@ -45,18 +46,27 @@ public class AutoController {
     }
     // ----------DODAWANIE ZAMÓWIEN DO PLIKU---------------------
     public void saveDataToFile(String fileName) throws IOException {
-        FileWriter fw = new FileWriter(fileName, true);
-        fw.append(String.format("%15s | %10s | %10s | %15s | %30s | %15s \n",
-                "VIN","MARKA","MODEL","CENA","WYPOSAŻENIE", "SUMA"));
-        for(Auto a : ordered_autos) {
-            fw.append(a.toString()+"\n");
+//        FileWriter fw = new FileWriter(fileName, true);
+//        fw.append(String.format("%15s | %10s | %10s | %15s | %30s | %15s \n",
+//                "VIN","MARKA","MODEL","CENA","WYPOSAŻENIE", "SUMA"));
+//        for(Auto a : ordered_autos) {
+//            fw.append(a.toString()+"\n");
+//        }
+//        fw.append("\n\nDATA: " + LocalDate.now() + "\n");
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Podpisz sie:");
+//        fw.append("Podpis: " + sc.nextLine() + "\n");
+//        sc.close();
+//        fw.close();
+
+        File file = new File("MyFile.txt");
+        Scanner sc = new Scanner(file);
+        System.out.println("File reading");
+        while(sc.hasNext()) {
+            System.out.println(sc.nextLine());
         }
-        fw.append("\n\nDATA: " + LocalDate.now() + "\n");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Podpisz sie:");
-        fw.append("Podpis: " + sc.nextLine() + "\n");
         sc.close();
-        fw.close();
+
     }
     // ---------------------------------------------------------
     public void getAllAutos(){
