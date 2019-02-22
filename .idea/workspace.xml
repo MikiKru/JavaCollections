@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ab062ac-473f-4a15-8533-d13caa42144e" name="Default Changelist" comment="" />
+    <list default="true" id="3ab062ac-473f-4a15-8533-d13caa42144e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/City.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,55 +13,88 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/model/City.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/MyDB.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/CityController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5416667">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/model/City.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="175">
+                  <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="39" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#354#355#0" expanded="true" />
+                    <element signature="e#391#392#0" expanded="true" />
+                    <element signature="e#599#600#0" expanded="true" />
+                    <element signature="e#626#627#0" expanded="true" />
+                    <element signature="e#666#667#0" expanded="true" />
+                    <element signature="e#698#699#0" expanded="true" />
+                    <element signature="e#735#736#0" expanded="true" />
+                    <element signature="e#768#769#0" expanded="true" />
+                    <element signature="e#820#821#0" expanded="true" />
+                    <element signature="e#864#865#0" expanded="true" />
+                    <element signature="e#895#896#0" expanded="true" />
+                    <element signature="e#922#923#0" expanded="true" />
+                    <element signature="e#962#963#0" expanded="true" />
+                    <element signature="e#994#995#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/controller/MyDB.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="132">
+                  <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/controller/CityController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="572">
+                  <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#628#629#0" expanded="true" />
+                    <element signature="e#679#680#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/MainCity.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/controller/CityController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="572">
+                  <caret line="26" selection-start-line="26" selection-end-line="26" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#679#680#0" expanded="true" />
+                    <element signature="e#768#769#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,8 +121,9 @@
         <option value="$PROJECT_DIR$/src/controller/AutoController.java" />
         <option value="$PROJECT_DIR$/src/MainMap.java" />
         <option value="$PROJECT_DIR$/src/controller/MyDB.txt" />
-        <option value="$PROJECT_DIR$/src/controller/CityController.java" />
         <option value="$PROJECT_DIR$/src/model/City.java" />
+        <option value="$PROJECT_DIR$/src/controller/CityController.java" />
+        <option value="$PROJECT_DIR$/src/MainCity.java" />
       </list>
     </option>
   </component>
@@ -136,7 +173,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550831964765" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550833372628" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -152,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainMap">
+  <component name="RunManager" selected="Application.MainCity">
     <configuration name="MainAuto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainAuto" />
       <module name="JavaCollections" />
@@ -160,8 +197,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainBubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainBubble" />
+    <configuration name="MainCity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainCity" />
       <module name="JavaCollections" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainCity" />
         <item itemvalue="Application.MainMap" />
         <item itemvalue="Application.MainAuto" />
         <item itemvalue="Application.MainUser" />
         <item itemvalue="Application.MainSet" />
-        <item itemvalue="Application.MainBubble" />
       </list>
     </recent_temporary>
   </component>
@@ -208,12 +245,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550740155413</updated>
-      <workItem from="1550740159464" duration="28730000" />
+      <workItem from="1550740159464" duration="29762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28730000" />
+    <option name="totallyTimeSpent" value="29762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="1548" height="824" extended-state="0" />
@@ -401,20 +438,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/CityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/City.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="175">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#354#355#0" expanded="true" />
@@ -432,6 +459,25 @@
             <element signature="e#962#963#0" expanded="true" />
             <element signature="e#994#995#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/CityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainCity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>

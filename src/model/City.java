@@ -35,6 +35,13 @@ public class City {
         return name;
     }
 
+    public List<Map> getCity() {
+        return city;
+    }
+    public void setCity(List<Map> city) {
+        this.city = city;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
