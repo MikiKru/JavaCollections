@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class AutoController {
     private List<Auto> ordered_autos = new ArrayList<>();
@@ -44,13 +45,17 @@ public class AutoController {
     }
     // ----------DODAWANIE ZAMÓWIEN DO PLIKU---------------------
     public void saveDataToFile(String fileName) throws IOException {
-        FileWriter fw = new FileWriter(fileName);
-        fw.write(String.format("%15s | %10s | %10s | %15s | %30s | %15s \n",
+        FileWriter fw = new FileWriter(fileName, true);
+        fw.append(String.format("%15s | %10s | %10s | %15s | %30s | %15s \n",
                 "VIN","MARKA","MODEL","CENA","WYPOSAŻENIE", "SUMA"));
         for(Auto a : ordered_autos) {
-            fw.write(a.toString()+"\n");
+            fw.append(a.toString()+"\n");
         }
-        fw.write("\n\nDATA: " + LocalDate.now());
+        fw.append("\n\nDATA: " + LocalDate.now() + "\n");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Podpisz sie:");
+        fw.append("Podpis: " + sc.nextLine() + "\n");
+        sc.close();
         fw.close();
     }
     // ---------------------------------------------------------
