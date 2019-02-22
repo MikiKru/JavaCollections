@@ -9,8 +9,9 @@ public class MainCity {
         cc.selectFromCity();
         cc.selectFromCityById(1);
         cc.selectFromCityById(10);
-
-        cc.updateCityValueById(1,44444.);
+        cc.deleteFromCityById(3);
+        cc.selectFromCity();
+//        cc.updateCityValueById(1,44444.);
 
     }
 }
